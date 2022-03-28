@@ -1,0 +1,112 @@
+header {
+    background-color: black;
+    text-align: center;
+    font-family: helvetica;
+    color: white;
+    max-width: 600px;
+    margin:auto
+    
+}
+
+header img{
+    width: 150px;
+    height: 110px;
+    margin-top: 25px ;
+}
+header h2{
+    text-align: left;
+}
+nav{
+    max-width: 600px;
+    background-color: #DDB602;
+    line-height: 40px;
+    text-align: right;
+
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    
+
+    
+     
+}
+.virsus{
+    background: black;
+}
+
+.vidurys{
+    background: #00184C;
+    
+}
+
+
+
+
+
+
+.about{
+    max-width: 600px;
+    margin: 25px auto;
+}
+.about a{
+    
+    margin-left: 47%;
+    background-color: RED;
+    color: white;
+    border-radius: 5px;
+    border: 10px  solid red;
+    border-right-width: 35px;
+    border-left-width: 35px;
+    margin-bottom: 25px;
+}
+
+.table{
+   background-color: #00184C;
+   color: white;
+   max-width: 600px;
+   margin:0 auto;
+   padding: 10px;
+}
+
+table{
+    width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #00184C;
+}
+th,
+td{
+  border: 1px solid red; 
+  
+
+  
+}
+td:nth-of-type(1){
+    text-align: center;
+    
+}
+td:nth-of-type(2){
+    text-align: right;
+
+}
+tr:nth-of-type(7) td:first-of-type{
+    text-align: right ;
+}
+
+.contacts{
+    max-width: 600px;
+    margin: auto;
+}
+.contacts a{
+    margin-left: 47%;
+
+}
+footer{
+    text-align: center;
+    background-color: #DDB602;
+    color: white;
+    padding: 2px;
+    margin: 25px;
+}
